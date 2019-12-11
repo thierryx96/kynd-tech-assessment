@@ -31,9 +31,116 @@ Example 3: duration of holiday is 10 days.
 - 25/12/2020 to 29/12/2020 (1 day of annual leave)
 ```
 
+## GraphQL
 
+Use the playground there : https://lfym1mly5f.execute-api.us-east-2.amazonaws.com/dev/graphql. This documents the endpoint.
 
+There, you can type and execute the following query :
+```
+query {
+  publicHolidays(jurisdictions: [QLD]) {
+    date
+    name
+    day
+    description
+    jurisdiction
+  }
+}
+```
 
+Which should give the following output:
+```
+{
+  "data": {
+    "publicHolidays": [
+      {
+        "date": "2020-01-01T00:00:00.000Z",
+        "name": "New Year's Day",
+        "day": "2020-01-01",
+        "description": "https://www.qld.gov.au/recreation/travel/holidays/public",
+        "jurisdiction": "QLD"
+      },
+      {
+        "date": "2020-01-01T00:00:00.000Z",
+        "name": "Australia Day",
+        "day": "2020-01-01",
+        "description": "https://www.qld.gov.au/recreation/travel/holidays/public",
+        "jurisdiction": "QLD"
+      },
+      {
+        "date": "2020-04-01T00:00:00.000Z",
+        "name": "Good Friday",
+        "day": "2020-04-01",
+        "description": "https://www.qld.gov.au/recreation/travel/holidays/public",
+        "jurisdiction": "QLD"
+      },
+      {
+        "date": "2020-04-01T00:00:00.000Z",
+        "name": "Easter Saturday",
+        "day": "2020-04-01",
+        "description": "https://www.qld.gov.au/recreation/travel/holidays/public",
+        "jurisdiction": "QLD"
+      },
+      {
+        "date": "2020-04-01T00:00:00.000Z",
+        "name": "Easter Sunday",
+        "day": "2020-04-01",
+        "description": "https://www.qld.gov.au/recreation/travel/holidays/public",
+        "jurisdiction": "QLD"
+      },
+      {
+        "date": "2020-04-01T00:00:00.000Z",
+        "name": "Easter Monday",
+        "day": "2020-04-01",
+        "description": "https://www.qld.gov.au/recreation/travel/holidays/public",
+        "jurisdiction": "QLD"
+      },
+      {
+        "date": "2020-04-01T00:00:00.000Z",
+        "name": "Anzac Day",
+        "day": "2020-04-01",
+        "description": "https://www.qld.gov.au/recreation/travel/holidays/public",
+        "jurisdiction": "QLD"
+      },
+      {
+        "date": "2020-05-01T00:00:00.000Z",
+        "name": "Labour Day",
+        "day": "2020-05-01",
+        "description": "https://www.qld.gov.au/recreation/travel/holidays/public",
+        "jurisdiction": "QLD"
+      },
+      {
+        "date": "2020-10-01T00:00:00.000Z",
+        "name": "Queen's Birthday",
+        "day": "2020-10-01",
+        "description": "https://www.qld.gov.au/recreation/travel/holidays/public",
+        "jurisdiction": "QLD"
+      },
+      {
+        "date": "2020-12-01T00:00:00.000Z",
+        "name": "Christmas Day",
+        "day": "2020-12-01",
+        "description": "https://www.qld.gov.au/recreation/travel/holidays/public",
+        "jurisdiction": "QLD"
+      },
+      {
+        "date": "2020-12-01T00:00:00.000Z",
+        "name": "Boxing Day",
+        "day": "2020-12-01",
+        "description": "https://www.qld.gov.au/recreation/travel/holidays/public",
+        "jurisdiction": "QLD"
+      },
+      {
+        "date": "2020-12-01T00:00:00.000Z",
+        "name": "Boxing Day (Additional day)",
+        "day": "2020-12-01",
+        "description": "https://www.qld.gov.au/recreation/travel/holidays/public",
+        "jurisdiction": "QLD"
+      }
+    ]
+  }
+}
+```
 
 
 
