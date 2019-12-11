@@ -4,9 +4,10 @@ You are planning your next holiday for 2020, and want to know what is best time 
 
 Build a simple interface where the user can input the duration of the holiday (in number of days) and the system should provide you with the best option(s) over 2020.
 
+- A holiday is a consecutive number of days
 - The first day is 1st jan 2020 and last is 31st of Dec. There is no span to 2019 or 2021.
 - The public holidays (Queensland) will be fetched from our API using graphQL.
-- holiday is > 4 
+- Holiday is > 4 
 
 ```
 Example 1: duration of holiday is 4 days.
