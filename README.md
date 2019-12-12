@@ -6,13 +6,14 @@ You are planning your next holiday for 2020, and want to know what is the best t
 
 Build a simple interface where the user can input the duration of the holiday (in number of days) and the system should provide you with the best option(s) for 2020.
 
-- A holiday is a consecutive number of days duration >= 4 and <= 25 days
+- A holiday is a consecutive number of days duration >= 4 and <= 25 days.
 - The year period starts on the 1st of Jan 2020 and ends on 31st of Dec 2020.
-- The public holidays (Queensland) will be fetched from our API using graphQL (https://lfym1mly5f.execute-api.us-east-2.amazonaws.com/dev/graphql)
+- The public holidays (QLD) will be fetched from our API using GraphQL (https://lfym1mly5f.execute-api.us-east-2.amazonaws.com/dev/graphql).
 - Keep it simple, i.e. UI-wise a simple number input for the holiday duration with a list of options (see example below) is enough.
 - Preferably use our Kynd FrontEnd Stack with consists of `VueJS`, `vue-cli`, `Vuex`, `Apollo` (http://apollo.vuejs.org/), `Typescript` and `moment`. 
 - Share a private repository or with your code, with brief instruction and documentation on how to run it locally.
 - It should take about 4 hours, if you get stuck on the algorithm to do the optimization of days or you don't get it exactly right, don't stress about it, just share the repository and we can go through and sort it out during the review.
+- This could help for the algo part: https://codility.com/media/train/13-CaterpillarMethod.pdf (not mandatory to apply it)
 
 ```
 Example 1: duration of holiday is 4 days.
@@ -150,7 +151,7 @@ Which should give the following output:
 ## References
 
 - Apollo Vue JS: http://apollo.vuejs.org/
-
+- Caterpillar method: https://codility.com/media/train/13-CaterpillarMethod.pdf
 
 
 
