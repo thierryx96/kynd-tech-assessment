@@ -1,13 +1,18 @@
-# kynd-tech-assessment
+# Holiday planner
+
+## Instructions
 
 You are planning your next holiday for 2020, and want to know what is best time to take it in term of maximizing the length of the time away while minimizing your annual leave balance with your current employer.
 
-Build a simple interface where the user can input the duration of the holiday (in number of days) and the system should provide you with the best option(s) over 2020.
+Build a simple interface where the user can input the duration of the holiday (in number of days) and the system should provide you with the best option(s) for 2020.
 
-- A holiday is a consecutive number of days
-- The first day is 1st jan 2020 and last is 31st of Dec. There is no span to 2019 or 2021.
-- The public holidays (Queensland) will be fetched from our API using graphQL.
-- Holiday duration >= 4 and <= 25 days.
+- A holiday is a consecutive number of days duration >= 4 and <= 25 days
+- The year period starts on the 1st of Jan 2020 and ends 31st of Dec 2020.
+- The public holidays (Queensland) will be fetched from our API using graphQL (https://lfym1mly5f.execute-api.us-east-2.amazonaws.com/dev/graphql)
+- Keep it simple, i.e. UI-wise a simple number input for the holiday duration with a list of options (see example below) is enough.
+- Preferrably use our the Kynd FrontEnd Stack with consists of `VueJS`, `vue-cli`, `Vuex`, `Apollo` (http://apollo.vuejs.org/) and `Typescript`. 
+- Share a private repository or with your code, with a brief instruction on how to run it locally.
+
 
 ```
 Example 1: duration of holiday is 4 days.
@@ -139,7 +144,13 @@ Which should give the following output:
 ## Bonus points 
 
 - use Vuex as as a state management store
-- allow the user to choose between all jurisdiction (states) in Australia
+- allow the user to choose between differents jurisdiction (QLD, NSW) in Australia using the enum type from graphql to populate the dropdown.
+
+
+## References
+
+- Apollo Vue JS: http://apollo.vuejs.org/
+
 
 
 
