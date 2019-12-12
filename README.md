@@ -7,7 +7,7 @@ Build a simple interface where the user can input the duration of the holiday (i
 - A holiday is a consecutive number of days
 - The first day is 1st jan 2020 and last is 31st of Dec. There is no span to 2019 or 2021.
 - The public holidays (Queensland) will be fetched from our API using graphQL.
-- Holiday is > 4 
+- Holiday duration >= 4 and <= 25 days.
 
 ```
 Example 1: duration of holiday is 4 days.
@@ -22,13 +22,6 @@ Example 2: duration of holiday is 5 days.
 - 24/12/2020 to 28/12/2020 (1 day of annual leave)
 - 25/12/2020 to 29/12/2020 (1 day of annual leave)
 
---TODO
-Example 3: duration of holiday is 10 days.
-4 best options: 
-- 09/04/2020 to 13/04/2020 (1 day of annual leave)
-- 10/04/2020 to 14/04/2020 (1 day of annual leave)
-- 24/12/2020 to 28/12/2020 (1 day of annual leave)
-- 25/12/2020 to 29/12/2020 (1 day of annual leave)
 ```
 
 ## GraphQL
@@ -142,6 +135,11 @@ Which should give the following output:
 }
 ```
 
+
+## Bonus points 
+
+- use Vuex as as a state management store
+- allow the user to choose between all jurisdiction (states) in Australia
 
 
 
