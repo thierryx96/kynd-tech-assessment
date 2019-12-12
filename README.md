@@ -61,79 +61,79 @@ Which should give the following output:
         "jurisdiction": "QLD"
       },
       {
-        "date": "2020-01-01T00:00:00.000Z",
+        "date": "2020-01-27T00:00:00.000Z",
         "name": "Australia Day",
-        "day": "2020-01-01",
+        "day": "2020-01-27",
         "description": "https://www.qld.gov.au/recreation/travel/holidays/public",
         "jurisdiction": "QLD"
       },
       {
-        "date": "2020-04-01T00:00:00.000Z",
+        "date": "2020-04-10T00:00:00.000Z",
         "name": "Good Friday",
-        "day": "2020-04-01",
+        "day": "2020-04-10",
         "description": "https://www.qld.gov.au/recreation/travel/holidays/public",
         "jurisdiction": "QLD"
       },
       {
-        "date": "2020-04-01T00:00:00.000Z",
+        "date": "2020-04-11T00:00:00.000Z",
         "name": "Easter Saturday",
-        "day": "2020-04-01",
+        "day": "2020-04-11",
         "description": "https://www.qld.gov.au/recreation/travel/holidays/public",
         "jurisdiction": "QLD"
       },
       {
-        "date": "2020-04-01T00:00:00.000Z",
+        "date": "2020-04-12T00:00:00.000Z",
         "name": "Easter Sunday",
-        "day": "2020-04-01",
+        "day": "2020-04-12",
         "description": "https://www.qld.gov.au/recreation/travel/holidays/public",
         "jurisdiction": "QLD"
       },
       {
-        "date": "2020-04-01T00:00:00.000Z",
+        "date": "2020-04-13T00:00:00.000Z",
         "name": "Easter Monday",
-        "day": "2020-04-01",
+        "day": "2020-04-13",
         "description": "https://www.qld.gov.au/recreation/travel/holidays/public",
         "jurisdiction": "QLD"
       },
       {
-        "date": "2020-04-01T00:00:00.000Z",
+        "date": "2020-04-25T00:00:00.000Z",
         "name": "Anzac Day",
-        "day": "2020-04-01",
+        "day": "2020-04-25",
         "description": "https://www.qld.gov.au/recreation/travel/holidays/public",
         "jurisdiction": "QLD"
       },
       {
-        "date": "2020-05-01T00:00:00.000Z",
+        "date": "2020-05-04T00:00:00.000Z",
         "name": "Labour Day",
-        "day": "2020-05-01",
+        "day": "2020-05-04",
         "description": "https://www.qld.gov.au/recreation/travel/holidays/public",
         "jurisdiction": "QLD"
       },
       {
-        "date": "2020-10-01T00:00:00.000Z",
+        "date": "2020-10-05T00:00:00.000Z",
         "name": "Queen's Birthday",
-        "day": "2020-10-01",
+        "day": "2020-10-05",
         "description": "https://www.qld.gov.au/recreation/travel/holidays/public",
         "jurisdiction": "QLD"
       },
       {
-        "date": "2020-12-01T00:00:00.000Z",
+        "date": "2020-12-25T00:00:00.000Z",
         "name": "Christmas Day",
-        "day": "2020-12-01",
+        "day": "2020-12-25",
         "description": "https://www.qld.gov.au/recreation/travel/holidays/public",
         "jurisdiction": "QLD"
       },
       {
-        "date": "2020-12-01T00:00:00.000Z",
+        "date": "2020-12-26T00:00:00.000Z",
         "name": "Boxing Day",
-        "day": "2020-12-01",
+        "day": "2020-12-26",
         "description": "https://www.qld.gov.au/recreation/travel/holidays/public",
         "jurisdiction": "QLD"
       },
       {
-        "date": "2020-12-01T00:00:00.000Z",
+        "date": "2020-12-28T00:00:00.000Z",
         "name": "Boxing Day (Additional day)",
-        "day": "2020-12-01",
+        "day": "2020-12-28",
         "description": "https://www.qld.gov.au/recreation/travel/holidays/public",
         "jurisdiction": "QLD"
       }
