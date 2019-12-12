@@ -11,8 +11,8 @@ Build a simple interface where the user can input the duration of the holiday (i
 - The public holidays (Queensland) will be fetched from our API using graphQL (https://lfym1mly5f.execute-api.us-east-2.amazonaws.com/dev/graphql)
 - Keep it simple, i.e. UI-wise a simple number input for the holiday duration with a list of options (see example below) is enough.
 - Preferrably use our the Kynd FrontEnd Stack with consists of `VueJS`, `vue-cli`, `Vuex`, `Apollo` (http://apollo.vuejs.org/) and `Typescript`. 
-- Share a private repository or with your code, with a brief instruction on how to run it locally.
-
+- Share a private repository or with your code, with brief instruction and documentation on how to run it locally.
+- It should take about 4 hours, if you get stuck on the algorithm to do the optimization of days or you don't get it exaclty right, don't stress about it, just share the repository and we can go through and sort it out during the review.
 
 ```
 Example 1: duration of holiday is 4 days.
