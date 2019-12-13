@@ -152,9 +152,3 @@ Which should give the following output:
 
 - Apollo Vue JS: http://apollo.vuejs.org/
 - Caterpillar method: https://codility.com/media/train/13-CaterpillarMethod.pdf
-
-
-
-
--- 
-Thierry Rais | 0499176693
